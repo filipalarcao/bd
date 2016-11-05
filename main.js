@@ -1,3 +1,4 @@
+/*var headerHeight = $('.prez').outerHeight();
 var marNegSearch = parseInt($('.search-field').css('margin-top'));
 var calc = headerHeight + marNegSearch;
 
@@ -10,4 +11,4 @@ $(window).on("scroll", function(e) {
     $('.nav').removeClass("fix-search");
   }
 
-});
+});*/

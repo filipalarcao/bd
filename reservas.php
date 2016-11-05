@@ -1,5 +1,5 @@
 <?php
-            if(!empty($_POST['nome']) && !empty($_POST['email']) && !empty($_POST['texto']) && $pValue){
+            if(!empty($_POST['nome']) && !empty($_POST['email']) && !empty($_POST['texto']) && !empty($_POST['NPessoas'])){
                 $assunto = $_POST['nome'] . " - reservas";
                 $corpo = "De: " . $_POST['nome'] . "<" . $_POST['email'] . ">\n\n reserva para " $pessoas "pessoas". $_POST['texto'];
                 send_email("matilde.branco96@gmail.com",$assunto, $corpo);

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css" media="all">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script src="main.js"></script>
+</head>
+<body>
+
+<div class="bgimg-1">
+  <div id="caption1">
+    <span class="border">MENU DA AVÓ</span>
+  </div>
+</div>
+
+<nav id="menu">
+	<ul>
+		<li><a href="#">Home</a></li>
+		<li><a href="#">Ementa</a></li>
+		<li><a href="#">Take Away</a></li>
+		<li><a href="#">Reservas</a></li>
+		<li><a href="#">Informações</a></li>
+	</ul>
+</nav>
+
+<nav class="nav">
+  <div class="search-field">
+    <input type="search" placeholder="Search something...">
+  </div>
+</nav>
+
+<div class="bgimg-2">
+  <div class="caption">
+    <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">EMENTA</span>
+    <main>
+    <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+    </div>
+  </main>
+  </div>
+</div>
+
+
+<div class="bgimg-3">
+  <div class="caption">
+    <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">TAKE AWAY</span>
+    <main>
+    <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+    </div>
+  </main>
+  </div>
+</div>
+
+<div class="bgimg-4">
+  <div class="caption">
+    <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">RESERVAS</span>
+  </div>
+  <div id="form-div">
+                        <form name="contacto" action="reservas.php" method="post">
+                            <!-- Nome -->
+                            <input class="contactBox" id="contactName" type="text" name="nome" placeholder="Nome" aria-required="true">
+
+                            <!-- E-Mail -->
+                            <input class="contactBox" type="text" name="email" placeholder="e-mail" aria-required="true">
+
+                            <br>
+                            <label for="NPeople"> Número de Pessoas </label>
+                              <select id="cmbMake" name="NPessoas"     onchange="document.getElementById('selected_text').value=this.options[this.selectedIndex].text">
+                                 <option value="0">1</option>
+                                 <option value="1">2</option>
+                                 <option value="2">3</option>
+                                 <option value="3">4</option>
+                                 <option value="4">5</option>
+                                 <option value="5">6</option>
+                                 <option value="6">7</option>
+                                 <option value="7">8</option>
+                                 <option value="8">9</option>
+                                 <option value="9">10</option>
+                            </select>
+                          <br>
+
+                            <!-- Message -->
+                            <textarea class="contactBox" id="contactMessage" name="texto" placeholder="Send me a message!"></textarea>
+
+                            <div class="submit">
+                                <input type="submit" value="SEND" id="button-blue"/>
+                                <div class="ease"></div>
+                            </div>
+                        </form>
+                    </div>
+</div>
+
+<div class="bgimg-5">
+  <div class="caption">
+    <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">INFORMAÇÕES</span>
+  </div>
+</div>
+
+
+</body>
+</html>

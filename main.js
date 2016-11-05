@@ -1,4 +1,3 @@
-var headerHeight = $('.prez').outerHeight();
 var marNegSearch = parseInt($('.search-field').css('margin-top'));
 var calc = headerHeight + marNegSearch;
 

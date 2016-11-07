@@ -1,11 +1,9 @@
 <?php
             
 
-            $pValue = $_POST['NPessoas']; // make value
 
 
-
-            if(!empty($_POST['nome']) && !empty($_POST['email']) && !empty($_POST['texto']) && !empty($pValue)){
+            if(!empty($_POST['nome']) && !empty($_POST['email']) && !empty($_POST['texto']) && !empty($_POST['NPessoas'])){
                 
                 $pessoas = mysql_real_escape_string($_POST['selected_text']); // get the selected text
                 $assunto = $_POST['nome'] . " - reservas";

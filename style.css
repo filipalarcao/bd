@@ -80,6 +80,11 @@ h3 {
   color: #111;
 }
 
+img{
+  height:100px;
+  width:200px;
+}
+
 main div{
     padding:30px;
     text-align:center;

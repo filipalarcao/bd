@@ -21,7 +21,8 @@ body, html {
 
 .bgimg-2 {
 background-color: #514f4f;
-  min-height: 100%;
+min-height: 100%;
+height: auto;
 }
 
 .bgimg-3 {
@@ -244,7 +245,13 @@ iframe{
     right: 50%;
 }
 
-ul.contacto {
+.cont{
+  width: 70%;
+  height: auto;
+}
 
+
+ul.contacto {
+  list-style: none;
     display: inline-flex;
 }
